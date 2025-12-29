@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="User Management Automation Suite">
+    <test name="All Tests">
+        <classes>
+            <class name="com.ainexus.automation.tests.SignupTests"/>
+            <class name="com.ainexus.automation.tests.LoginTests"/>
+            <class name="com.ainexus.automation.tests.EndToEndTests"/>
+        </classes>
+    </test>
+</suite>
